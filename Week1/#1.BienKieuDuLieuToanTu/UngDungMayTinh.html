@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Caculator</h1>
+    <form>
+        <input type="text" id="txtNumberOne">
+        <input type="text" id="txtNumberTwo">
+        <br/>
+        <br/>
+        <input type="button" value="Addition(+)" onclick="getAddition()"/>
+        <input type="button" value="Subtraction(-)" onclick="getSubtraction()"/>
+        <input type="button" value="Multiplicatin(X)" onclick="getMulti()"/>
+        <input type="button" value="Division(/)" onclick="getDivision()"/>
+    </form>
+    <script>
+        var numberOne = document.getElementById("txtNumberOne");
+        var numberTwo = document.getElementById("txtNumberTwo");
+        function getAddition() {
+            alert(parseFloat(numberOne.value)+parseFloat(numberTwo.value))
+        }
+        function getSubtraction() {
+            alert(parseFloat(numberOne.value)-parseFloat(numberTwo.value))
+        }
+        function getMulti() {
+            alert(parseFloat(numberOne.value)*parseFloat(numberTwo.value))
+        }
+        function getDivision() {
+            alert(parseFloat(numberOne.value)/parseFloat(numberTwo.value))
+        }
+    </script>
+</body>
+</html>
