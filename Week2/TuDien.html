@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>Translation</h2>
+    <form>
+        <input type="text" id="txtEnglish">
+        <input type="button" value="Translate" onclick="searchVietNam()"/>
+    </form>
+    <script>
+        let txtEnglish =document.getElementById("txtEnglish");
+        let english = ["dog","cat","horse"];
+        let vietNam = ["chó","mèo","ngựa"];
+        let check;
+        let index;
+        function searchVietNam() {
+            for(let i = 0; i<english.length; i++)
+            {
+                check = 0;
+                if (txtEnglish.value === english[i])
+                {
+                    check == 0;
+                    index = i;
+                    break;
+                }
+                else check++;
+            }
+            if(check == 0)
+                txtEnglish.value = vietNam[index];
+            else alert("Không tìm thấy trong từ điển");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let chieuDai =parseInt(prompt("Nhập chiều dài của HCN: "));
+        let chieuRong =parseInt(prompt("Nhập chiều rộng của HCN: "));
+        for(let i = 1; i <= chieuRong; i++)    {
+            for(let k = 1 ; k <= chieuDai; k++){
+                if(i == 1 || k == 1 || i == chieuRong || k == chieuDai){
+                    document.writeln("*");
+                }
+                else{
+                    document.writeln("&nbsp&nbsp");
+                }
+            }
+            document.writeln("<br>");
+        }
+    </script>
+</body>
+</html>

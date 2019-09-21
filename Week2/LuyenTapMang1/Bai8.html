@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let array = [];
+        let sọNguyen;
+        let soPhanTuMang = parseInt(prompt("Nhập vào số phần tử mảng: "));
+        let check = 0;
+        for(let k = 0; k<soPhanTuMang;k++)
+        {
+            array[k] = parseInt(prompt("Nhập số phần tử thứ: "+k));
+        }
+        for(let i=0;i<soPhanTuMang;i++){
+            for(let j=i;j<soPhanTuMang;j++){
+                if(array[i]<array[j]){
+                    let temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                }
+            }
+        }
+        document.writeln("Mảng được sắp xếp giảm dần là: ");
+        for(let i=0;i<soPhanTuMang;i++) {
+            document.writeln(array[i]);
+        }
+
+    </script>
+</body>
+</html>

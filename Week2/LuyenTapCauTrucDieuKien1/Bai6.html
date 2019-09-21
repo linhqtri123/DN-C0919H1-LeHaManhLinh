@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!--Tính hoa hồng nhận được tuỳ theo mức doanh số bán hàng-->
+    <script>
+        var revenue = parseInt(prompt("Enter the Revenue: "));
+        var tienHoaHong ;
+        if (revenue >= 5000000) {
+            tienHoaHong = (revenue * 10 / 100);
+            document.write(tienHoaHong);
+        }
+        else if(revenue >= 2000000) {
+            tienHoaHong = (revenue * 5 / 100);
+            document.write(tienHoaHong);
+        }
+        else {
+            tienHoaHong = (revenue * 2 / 100);
+            document.write(tienHoaHong);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let array = [];
+        let soPhanTuMang = parseInt(prompt("Nhập vào số phần tử mảng: "));
+        for(let k = 0; k<soPhanTuMang;k++)
+        {
+            array[k] = parseInt(prompt("Nhập số phần tử thứ: "+k));
+        }
+        for(let i=0; i<array.length/2;i++) {
+            let temp = array[i];
+            array[i] = array[array.length-i-1];
+            array[array.length-i-1] = temp;
+        }
+        document.writeln("Mảng đảo ngược là: ");
+        for(let j=0; j<array.length;j++ )
+            document.writeln(+array[j]);
+    </script>
+</body>
+</html>

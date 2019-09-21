@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="button" value="Chơi" onclick="getPlay()">
+    <script>
+        function getPlay() {
+            let guessFrom = parseInt(prompt("Nhập khoảng bạn muốn đoán: "));
+            let choose = parseInt(Math.random()*guessFrom);
+            let count =1;
+            do {
+                let guess = parseInt(prompt("Nhập giá trị bạn muốn đoán: "));
+                if (guess == choose) {
+                    alert("Chúc mừng");
+                    break;
+                }
+                else if(guess > choose)
+                    alert("Giá trị bạn đoán cao hơn giá trị đưa ra");
+                else alert("Giá trị bạn đoán thấp hơn giá trị đưa ra");
+                count ++;
+            }while(count<=3);
+            document.write("Giá trị đưa ra là: "+choose);
+        }
+    </script>
+</body>
+</html>

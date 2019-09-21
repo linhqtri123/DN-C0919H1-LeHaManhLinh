@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let array = [];
+        let sọNguyen;
+        let soPhanTuMang = parseInt(prompt("Nhập vào số phần tử mảng: "));
+        let check = 0;
+        for(let k = 0; k<soPhanTuMang;k++)
+        {
+            array[k] = parseInt(prompt("Nhập số phần tử thứ: "+k));
+        }
+        soNguyen = parseInt(prompt("Nhập số nguyên V: "));
+        for(let i=0; i<soPhanTuMang;i++) {
+            if(array[i] == soNguyen) {
+                check++;
+            }
+        }
+        if(check == 0)
+            document.writeln("V is not in the array");
+        else document.writeln("V is in the array");
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let chieuCao =parseInt(prompt("Nhập chiều cao của tam giác: "));
+        for(let i = chieuCao;i>=1;i--) {
+            for(let k = 1;k <= chieuCao-i;k++)
+                document.writeln("&nbsp&nbsp");
+            for (let j = i; j >= 1; j--) {
+                document.writeln("*");
+            }
+            document.writeln("<br>");
+        }
+    </script>
+</body>
+</html>

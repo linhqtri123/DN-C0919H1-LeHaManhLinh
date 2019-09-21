@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let soThuKhong = 0;
+        let soThuNhat = 1;
+        let soThuN;
+        let sum = 1;
+        for (i = 2; i < 20; i++) {
+            soThuN = soThuKhong + soThuNhat;
+            sum = sum+soThuN;
+            soThuKhong = soThuNhat;
+            soThuNhat = soThuN;
+        }
+        document.writeln(sum);
+    </script>
+</body>
+</html>

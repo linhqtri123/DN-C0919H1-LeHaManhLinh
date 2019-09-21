@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        //Giải phương trình bậc 2
+        //ax^2+bx+c=0
+        var a = parseFloat(prompt("Enter a: "));
+        var b = parseFloat(prompt("Enter b: "));
+        var c = parseFloat(prompt("Enter c: "));
+        var delta,x1,x2;
+        if (0 === a) {
+            if (b === 0)
+                if (c === 0)
+                    document.write("VSN");
+                else
+                    document.write("VN");
+            else {
+                x1 = -b / c;
+                document.write("x1=x2= " + x1);
+            }
+        }
+        else {
+            delta = (b * b) - (4 * a * c);
+            if (delta < 0)
+                document.write("VN");
+            else if(delta === 0) {
+                x1 = -b / (2 * a);
+                document.write("x1=x2= " + x1);
+            }
+            else {
+                x1 = (-b + Math.sqrt(delta)) / (2 * a);
+                x1 = (-b - Math.sqrt(delta)) / (2 * a);
+                document.write("x1 = "+ x1 + "x2 = " + x2);
+            }
+        }
+</script>
+</body>
+</html>

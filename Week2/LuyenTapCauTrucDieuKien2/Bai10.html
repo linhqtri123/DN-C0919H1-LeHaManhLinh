@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let kWh = parseFloat(prompt("Nhập sản lượng điện đã tiêu thụ: "));
+        let soTien = 0;
+        if(kWh >= 101)
+            soTien = (50*1678) + (50*1734) + (kWh - 101)*2014;
+        else if(kWh < 101)
+            soTien =  (50*1678) + ((kWh - 51)*1734);
+        else if(soTien < 51 && soTien >= 0) soTien = (kWh*1678);
+        document.write("Số tiền phải trả là: "+soTien);
+    </script>
+</body>
+</html>

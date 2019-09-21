@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>Type anthing slowly</h2>
+    <form>
+        <textarea id="txt" onkeydown="typeKeyBoard()"></textarea>
+    </form>
+    <script>
+        let array="TÔI LÀ MỘT ĐỨA NGỐC !!!";
+        let string = "";
+        let text = document.getElementById("txt");
+        function typeKeyBoard() {
+            if(text.value.length > 0)
+            {
+                for(let i=0; i<text.value.length;i++)
+                {
+                    string = string + array[i];
+                    if(i == array.length)
+                    {
+                        text.value = "";
+                        string = "";
+                    }
+                }
+            }
+            text.value = string;
+            string = "";
+        }
+    </script>
+</body>
+</html>

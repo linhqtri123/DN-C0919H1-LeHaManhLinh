@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        const laiSuat = 3/100;
+        let soTien = parseInt(prompt("Nhập số tiền vay: "));
+        let soThang = parseInt(prompt("Nhập số tháng vay: "));
+        let soTienLai = 0;
+        for(let i = 1; i<=soThang; i++)
+            soTienLai = soTienLai + soTien*Math.pow((1+laiSuat),i);
+        document.write("Số tiền phải trả ngân hàng: "+parseInt(soTienLai));
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var check = parseFloat(prompt("Enter Check : "));
+        var midTerm = parseFloat(prompt("Enter Midterm: "));
+        var finalTerm = parseFloat(prompt("Enter Final Term: "));
+        var average = ((check+midterm+finalterm)/3);
+        if (average >=8)
+            document.write("Good");
+        else if(average >= 6.5)
+            document.write("Great");
+        else
+            document.write("Weak");
+    </script>
+</body>
+</html>

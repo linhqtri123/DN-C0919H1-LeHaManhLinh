@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="good" value="OFF">
+        <input type="button" value="GOOD" onclick="btnGood()">
+    </div>
+    <br/>
+    <div>
+        <input type="text" id="cheap" value="OFF">
+        <input type="button" value="CHEAP" onclick="btnCheap()">
+    </div>
+    <br/>
+    <div>
+        <input type="text" id="fast" value="OFF">
+        <input type="button" value="FAST" onclick="btnFast()">
+    </div>
+    <script>
+        let textGood = document.getElementById("good");
+        let textCheap = document.getElementById("cheap");
+        let textFast = document.getElementById("fast");
+        function btnGood() {
+            if(textGood.value == "OFF")
+                textGood.value = "ON";
+            else textGood.value = "OFF";
+            if(textGood.value == "ON" && textCheap.value == "ON" && textFast.value == "ON" )
+                textFast.value = "OFF";
+        }
+        function btnCheap() {
+            if(textCheap.value == "OFF")
+                textCheap.value = "ON";
+            else textCheap.value = "OFF";
+            if(textGood.value == "ON" && textCheap.value == "ON" && textFast.value == "ON" )
+                textGood.value = "OFF";
+        }
+        function btnFast() {
+            if(textFast.value == "OFF")
+                textFast.value = "ON";
+            else textFast.value = "OFF";
+            if(textGood.value == "ON" && textCheap.value == "ON" && textFast.value == "ON" )
+                textCheap.value = "OFF";
+        }
+    </script>
+</body>
+</html>

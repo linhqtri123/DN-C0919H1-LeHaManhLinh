@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let array = new  Array("1","2","a","b","3","4");
+        let count = 0;
+        for(let i = 0; i<array.length;i++)
+            if(!isNaN(array[i]))
+                count ++;
+        if(count == 0)
+            alert("Không có kí tự số trong mảng");
+        else alert("Có "+count+" ký tự số trong mảng");
+    </script>
+</body>
+</html>

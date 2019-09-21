@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!--Tính cước điện thoại cho một hộ gia đình với các thông số đã cho-->
+    <script>
+        var minute = parseInt(prompt("Enter the number of minutes used: "));
+        var pay;
+        if (minute >= 1440){
+            pay = minute*10000;
+            document.write(pay+"VND");
+        }
+        else if (minute >= 720){
+            pay = minute*5000;
+            document.write(pay+"VND");
+        }
+        else {
+            pay = minute*3000;
+            document.write(pay+"VND");
+        }
+    </script>
+</body>
+</html>

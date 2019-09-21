@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let array = [1,2,3,4,5];
+        let max = 0;
+        let avarage =0;
+        for(let i=0; i<array.length;i++) {
+            if (array[i] >= max) {
+                max = array[i];
+                avarage+=array[i]
+            }
+        }
+        avarage = avarage/array.length;
+        document.write("Giá trị lớn nhất trong mảng là: "+max+" giá trị trung bình của các phần tử: "+avarage);
+    </script>
+</body>
+</html>
