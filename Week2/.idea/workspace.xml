@@ -2,80 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1553ba06-0e25-4491-862a-3f600e0380d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/YeCau2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/YeuCau1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/YeuCau3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DaoNguocPhanTuTrongMang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DoYouLoveMe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FakingTextAreaOnTyping.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoodFastCheap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HienThiCacSoNguyenToDauTien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien1/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien1/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien1/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien1/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien1/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien1/Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien1/Bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien2/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien2/Bai10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien2/Bai11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien2/Bai12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien2/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien2/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien2/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien2/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien2/Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien2/Bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien2/Bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapCauTrucDieuKien2/Bai9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang1/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang1/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang1/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang1/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang1/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang1/Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang1/Bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang1/Bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang1/Bai9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang2/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang2/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang2/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang2/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang2/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapMang2/Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap1/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap1/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap1/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap1/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap1/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap1/Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap1/Bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap1/Bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap2/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap2/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap2/Bai3_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap2/Bai3_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap2/Bai3_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap2/Bai3_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap2/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenTapVongLap2/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MayTinhDonGian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinhBangCuuChuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuDungCacHamCoSanCuaMang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuDungVongLapFor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuDungVongLapLongNhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuDungVongLapWhile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuKienBanPhim.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuKienChuot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaoVaThaoTacVoiMang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimGiaTriLonNhatTrongMang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimGiaTriTrongMang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TinhChiSoCanNangCoThe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TinhSoNgay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuDien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carosimple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dowhilesample.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/YeuCau3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/YeuCau3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -108,7 +37,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LuyenTapVongLap1/Bai8.html" />
         <option value="$PROJECT_DIR$/LuyenTapVongLap2.html" />
         <option value="$PROJECT_DIR$/LuyenTapVongLap2/Bai1.html" />
         <option value="$PROJECT_DIR$/LuyenTapVongLap2/bai2.html" />
@@ -159,6 +87,7 @@
         <option value="$PROJECT_DIR$/GoodFastCheap.html" />
         <option value="$PROJECT_DIR$/carosimple.html" />
         <option value="$PROJECT_DIR$/LuyenTapMang2/Bai5.html" />
+        <option value="$PROJECT_DIR$/test.html" />
       </list>
     </option>
   </component>
@@ -172,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -194,11 +123,6 @@
               <item name="Week2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Week2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Week2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Week2" type="462c0819:PsiDirectoryNode" />
-              <item name="LuyenTapMang2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -208,6 +132,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CaseStudy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -248,12 +173,13 @@
       <workItem from="1568858006409" duration="408000" />
       <workItem from="1568862268241" duration="1668000" />
       <workItem from="1569076455961" duration="10350000" />
-      <workItem from="1569086902702" duration="2529000" />
+      <workItem from="1569086902702" duration="3374000" />
+      <workItem from="1569165455227" duration="609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57776000" />
+    <option name="totallyTimeSpent" value="59230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -300,13 +226,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LuyenTapVongLap1/Bai6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LuyenTapVongLap1/Bai7.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -635,5 +554,6 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.html" />
   </component>
 </project>
