@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Tạo hàm nhận vào hai tham số. Nếu giá trị của tham số thứ nhất lớn hơn tham số thứ hai, hiển thị hộp thoại thông báo cho người dùng.
+Nếu giá trị của tham số thứ nhất nhỏ hơn hoặc bằng tham số thứ hai, trả về tổng của hai tham số-->
+    <script>
+        function twoNumber(numb1,numb2) {
+            result = "";
+            if (numb1 > numb2) {
+                result =  "number 1: > number 2";
+                return result;
+            }
+            else
+                return numb1+numb2;
+        }
+        var firstNumber = parseInt(prompt("Enter first number: "));
+        var secondNumber = parseInt(prompt("Enter second number: "));
+        alert(twoNumber(firstNumber,secondNumber));
+    </script>
+</body>
+</html>

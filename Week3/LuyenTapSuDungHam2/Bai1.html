@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function binhPhuong(number) {
+            number = parseFloat(number);
+            document.getElementById("result").innerHTML= (number*number);
+        }
+
+    </script>
+    Binh Phuong : <input type="text" id="binhPhuong" oninput="binhPhuong(this.value)"/> = <span id="result"></span>
+</body>
+</html>

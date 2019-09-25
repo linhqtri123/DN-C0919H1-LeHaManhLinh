@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        const pi=3.14;
+        function dienTich(banKinh) {
+            banKinh = parseFloat(banKinh);
+            document.getElementById("result").innerHTML=(banKinh*banKinh*pi);
+        }
+        function chuVi(banKinh1) {
+            banKinh1 = parseFloat(banKinh1);
+            document.getElementById("result1").innerHTML = (banKinh1*2*pi);
+        }
+    </script>
+    <form>
+        <p>
+            Nhap Ban Kinh Hinh Tron: <input type="text" id="banKinh" oninput="dienTich(this.value)"/>
+            Dien Tich = <span id="result"></span>
+        </p>
+        <p>
+            Nhap Ban Kinh Hinh Tron: <input type="text" id="chuVi" oninput="chuVi(this.value)"/>
+            Chu Vi = <span id="result1"></span>
+        </p>
+    </form>
+</body>
+</html>

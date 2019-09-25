@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function reserve(array) {
+            for(let i=0;i<array.length/2;i++)
+                {
+                    let temp = array[i];
+                    array[i] = array[array.length-i-1];
+                    array[array.length-i-1] = temp;
+                }
+            return array;
+        }
+        let array = [1,2,3,4,5,56,6,8];
+        document.writeln("Reserve Array: ");
+        document.writeln(reserve(array));
+    </script>
+</body>
+</html>

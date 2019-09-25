@@ -48,20 +48,34 @@
         let typeService = prompt("Enter Type Service: ");
 
         //Yêu cầu 2
+        nameCustomer = nameCustomer.trim();
         let name2 = "";
-        let i = 0;
-        if(nameCustomer[0] == " ")
-            i++;
-        for (i; i<nameCustomer.length;i++) {
-            if(i==0 || (nameCustomer[i] !=" " && nameCustomer[i-1]== " ")) {
-                name2 = name2 + nameCustomer[i].toUpperCase();
-                i++;
+        for (i=0; i<nameCustomer.length;i++) {
+            if(nameCustomer.charAt(i) === " " && nameCustomer.charAt(i+1) === " ")
+            {
+                continue;
             }
-            if(nameCustomer[i] == " " && nameCustomer[i+1] == " ") {
-                name2 = name2 + nameCustomer[i+1];
-                i++;
-            }else name2 = name2 + nameCustomer[i].toLowerCase();
+            if(i === 0 || nameCustomer.charAt(i-1)== " ") {
+                name2 = name2 + nameCustomer.charAt(i).toUpperCase();
+                continue;
+            }
+            name2 = name2 + nameCustomer.charAt(i).toLowerCase();
         }
+        nameCustomer = name2;
+        alert(
+            "Information Of Customer: \n"+
+            "Name: " + nameCustomer +
+            "\nId Card: " + idCard +
+            "\nBirthday: " + birthdayCustomer+
+            "\nEmail: " + emailCustomer +
+            "\nAddress: " + addressCustomer +
+            "\nType Customer: " + typeCustomer +
+            "\nDiscount: " + discount +
+            "\nAccompanying: " + numberOfAccompanying +
+            "\nType Room; " + typeRoom +
+            "\nRent Days: " + rentDay +
+            "\nType Service: " + typeService
+        );
     </script>
 </body>
 </html>

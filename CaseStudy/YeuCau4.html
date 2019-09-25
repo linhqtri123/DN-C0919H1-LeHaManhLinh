@@ -16,36 +16,35 @@
             case "1":
                 let number = parseInt(prompt("Enter number of customer you want enter: "));
                 for(let i = 0; i<number;i++)
-                    arrayCustomer[i] = prompt("Enter Name Customer: ");
-                for(let j = 0; j<number;j++)
-                    alert("Customer name "+(j+1)+": "+arrayCustomer[j]);
-                let c = confirm("Xuất ra mảng được sắp xếp theo thứ tự alphabel");
-                document.writeln("Customer name: <br>");
-                if(c)
+                    arrayCustomer.push(prompt("Enter Name Customer no : "+(i+1)));
+                let result = "";
+                for(let i = 0; i<number;i++)
                 {
-                    for (let i = 0; i<number; i++)
-                        for(let j = i+1; j<number;j++)
-                            if(arrayCustomer[i]>arrayCustomer[j])
-                            {
-                                let temp = arrayCustomer[i];
-                                arrayCustomer[i] = arrayCustomer[j];
-                                arrayCustomer[j] = temp;
-                            }
-                    document.writeln(arrayCustomer);
-                } else
-                {
-                    document.writeln(arrayCustomer);
+                    result +="\n"+(i+1)+" "+arrayCustomer[i];
                 }
+                alert(result);
+                arrayCustomer.sort();
+                arrayCustomer.reverse();
+                result = "";
+                for(let i = 0; i<number;i++)
+                {
+                    result +="\n"+(i+1)+" "+arrayCustomer[i];
+                }
+                alert(result);
                 break;
             case "2":
+                let result2 = "";
                 for(let i=0; i<arrayCustomerDefault.length;i++)
-                    alert("Customer name "+(i+1)+": "+arrayCustomerDefault[i]);
-                let deleteName = prompt("Enter name you want to delete: ");
+                    result2 +="\n"+(i+1)+" "+arrayCustomerDefault[i];
+                alert(result2);
+                let deleteName = prompt("Enter index you want to delete: ");
                 for(let j = 0; j<arrayCustomerDefault.length;j++)
-                    if(deleteName == arrayCustomerDefault[j])
+                    if(deleteName == j+1)
                         arrayCustomerDefault.splice(j,1);
-                document.writeln("Customer name: <br>");
-                document.writeln(arrayCustomerDefault);
+                result2 = "";
+                for(let i=0; i<arrayCustomerDefault.length;i++)
+                    result2 +="\n"+(i+1)+" "+arrayCustomerDefault[i];
+                alert(result2);
                 break;
             default:
                 alert("Failed !!!");
