@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let string = prompt("Nhập vào chuỗi: ");
+        if(isPalindrome(string))
+            alert(string+" là chuỗi đối xứng");
+        else alert(string+" không là chuỗi đối xứng");
+        function isPalindrome(s) {
+            for(let i=0;i<s.length/2;i++)
+                if(s[i] != s[s.length-i-1]) {
+                    return false;
+                    break;
+                }
+            return true;
+        }
+    </script>
+</body>
+</html>

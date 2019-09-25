@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let foot = parseFloat(prompt("Enter foot you want transfer to meter: "));
+        let meter = parseFloat(prompt("Enter meter you want transfer to foot: "));
+        function footToMeter(foot) {
+            let meter = 0.305 * foot;
+            return meter;
+        }
+        function meterToFoot(meter) {
+            let foot = 3.279 * meter;
+            return foot;
+        }
+        alert("The meter you want to transfer is: "+footToMeter(foot));
+        alert("The foot you want to transfer is: "+meterToFoot(meter));
+    </script>
+</body>
+</html>

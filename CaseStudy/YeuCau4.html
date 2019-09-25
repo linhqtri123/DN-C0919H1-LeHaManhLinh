@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let arrayCustomer = [];
+        let arrayCustomerDefault = ["Linh","Dung","Sang"];
+        let choose = prompt(
+            "1. Add New Customer.\n"+
+            "2. Delete Customer.\n"
+        );
+        switch (choose) {
+            case "1":
+                let number = parseInt(prompt("Enter number of customer you want enter: "));
+                for(let i = 0; i<number;i++)
+                    arrayCustomer[i] = prompt("Enter Name Customer: ");
+                for(let j = 0; j<number;j++)
+                    alert("Customer name "+(j+1)+": "+arrayCustomer[j]);
+                let c = confirm("Xuất ra mảng được sắp xếp theo thứ tự alphabel");
+                document.writeln("Customer name: <br>");
+                if(c)
+                {
+                    for (let i = 0; i<number; i++)
+                        for(let j = i+1; j<number;j++)
+                            if(arrayCustomer[i]>arrayCustomer[j])
+                            {
+                                let temp = arrayCustomer[i];
+                                arrayCustomer[i] = arrayCustomer[j];
+                                arrayCustomer[j] = temp;
+                            }
+                    document.writeln(arrayCustomer);
+                } else
+                {
+                    document.writeln(arrayCustomer);
+                }
+                break;
+            case "2":
+                for(let i=0; i<arrayCustomerDefault.length;i++)
+                    alert("Customer name "+(i+1)+": "+arrayCustomerDefault[i]);
+                let deleteName = prompt("Enter name you want to delete: ");
+                for(let j = 0; j<arrayCustomerDefault.length;j++)
+                    if(deleteName == arrayCustomerDefault[j])
+                        arrayCustomerDefault.splice(j,1);
+                document.writeln("Customer name: <br>");
+                document.writeln(arrayCustomerDefault);
+                break;
+            default:
+                alert("Failed !!!");
+                break;
+        }
+    </script>
+</body>
+</html>
