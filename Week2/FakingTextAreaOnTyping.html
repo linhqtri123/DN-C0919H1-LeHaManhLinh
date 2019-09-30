@@ -5,30 +5,32 @@
     <title>Title</title>
 </head>
 <body>
-    <h2>Type anthing slowly</h2>
-    <form>
-        <textarea id="txt" onkeydown="typeKeyBoard()"></textarea>
-    </form>
-    <script>
-        let array="TÔI LÀ MỘT ĐỨA NGỐC !!!";
-        let string = "";
-        let text = document.getElementById("txt");
-        function typeKeyBoard() {
-            if(text.value.length > 0)
-            {
-                for(let i=0; i<text.value.length;i++)
-                {
-                    string = string + array[i];
-                    if(i == array.length)
-                    {
-                        text.value = "";
-                        string = "";
-                    }
-                }
-            }
-            text.value = string;
-            string = "";
+<input id="textInput" type="text" onkeydown="runProgram(event)"/>
+<script>
+    let textInput = document.getElementById("textInput");
+    let str = "Nguyen Thanh Kien";
+    let index = 0;
+    let result = "";
+    function runProgram(event) {
+        if(event.keyCode === 8){
+            index--;
+            result = "";
+            for(let i=0;i<index;i++)
+                result += str.charAt(i);
+            if(index<0)
+                index = 0;
         }
-    </script>
+        else {
+            event.preventDefault();
+            result += str.charAt(index);
+            textInput.value = result;
+            index++;
+            if (index === str.length) {
+                textInput.style.color = 'green';
+                alert("xong roi");
+            }
+        }
+    }
+</script>
 </body>
 </html>

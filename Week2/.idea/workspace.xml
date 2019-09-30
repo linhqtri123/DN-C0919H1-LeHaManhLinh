@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1553ba06-0e25-4491-862a-3f600e0380d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Week3/ChuyenDoiNhietDo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week3/KiemTraSoNguyenTo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week3/TaoVaGoiHam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week3/TimGiaTriNhoNhatCuaMang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week3/LopMoTaHCN.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week3/QuanLySanPhamSuDungHam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakingTextAreaOnTyping.html" beforeDir="false" afterPath="$PROJECT_DIR$/FakingTextAreaOnTyping.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodFastCheap.html" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFastCheap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/LuyenTapSuDungHam2/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/LuyenTapSuDungHam2/Bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/XayDungHinhTron.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/XayDungHinhTron.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/XayDungLopDate.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/XayDungLopDate.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +23,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SinhBangCuuChuong.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,11 +100,11 @@
         <option value="$PROJECT_DIR$/LuyenTapMang2/Bai3.html" />
         <option value="$PROJECT_DIR$/LuyenTapMang2/Bai4.html" />
         <option value="$PROJECT_DIR$/LuyenTapMang2/Bai6.html" />
-        <option value="$PROJECT_DIR$/FakingTextAreaOnTyping.html" />
-        <option value="$PROJECT_DIR$/GoodFastCheap.html" />
         <option value="$PROJECT_DIR$/carosimple.html" />
         <option value="$PROJECT_DIR$/LuyenTapMang2/Bai5.html" />
         <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/FakingTextAreaOnTyping.html" />
+        <option value="$PROJECT_DIR$/GoodFastCheap.html" />
       </list>
     </option>
   </component>
@@ -123,6 +138,11 @@
             <path>
               <item name="Week2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Week2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Week2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Week2" type="462c0819:PsiDirectoryNode" />
+              <item name="LuyenTapVongLap2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,14 +199,20 @@
       <workItem from="1569165455227" duration="609000" />
       <workItem from="1569172294886" duration="10000" />
       <workItem from="1569172910717" duration="401000" />
+      <workItem from="1569463531437" duration="16000" />
+      <workItem from="1569464904619" duration="2568000" />
+      <workItem from="1569470382124" duration="2914000" />
+      <workItem from="1569771961737" duration="16000" />
+      <workItem from="1569772722350" duration="58000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59641000" />
+    <option name="totallyTimeSpent" value="65213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -230,29 +256,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LuyenTapVongLap2/Bai2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenTapVongLap2/package.json" />
-    <entry file="file://$PROJECT_DIR$/LuyenTapVongLap2/Bai3_4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenTapVongLap2/Bai4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenTapCauTrucDieuKien2.html" />
     <entry file="file://$PROJECT_DIR$/LuyenTapMang2/Bai1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -284,45 +287,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenTapVongLap2/Bai3_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SinhBangCuuChuong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LuyenTapVongLap2/Bai3_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenTapVongLap2/Bai5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="75" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="14" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FakingTextAreaOnTyping.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoodFastCheap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -542,6 +510,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodFastCheap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FakingTextAreaOnTyping.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenTapVongLap1/Bai8.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenTapVongLap1/Bai7.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenTapVongLap1/Bai6.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenTapVongLap2/Bai5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="75" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="14" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenTapVongLap2/Bai3_4.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenTapVongLap2/Bai3_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenTapVongLap2/Bai4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SinhBangCuuChuong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>

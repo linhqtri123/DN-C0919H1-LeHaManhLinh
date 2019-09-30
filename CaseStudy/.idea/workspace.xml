@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85c08eb9-fb8d-46af-86b6-2ba7b63792b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/YeuCau5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week3/LuyenTapSuDungHam2/Bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week3/LuyenTapSuDungHam2/Bai9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YeCau2.html" beforeDir="false" afterPath="$PROJECT_DIR$/YeuCau2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YeuCau3.html" beforeDir="false" afterPath="$PROJECT_DIR$/YeuCau3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YeuCau4.html" beforeDir="false" afterPath="$PROJECT_DIR$/YeuCau4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -111,11 +104,13 @@
       <workItem from="1569339582625" duration="6341000" />
       <workItem from="1569421352398" duration="4394000" />
       <workItem from="1569425937282" duration="669000" />
+      <workItem from="1569429198450" duration="599000" />
+      <workItem from="1569463107220" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29434000" />
+    <option name="totallyTimeSpent" value="30042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />

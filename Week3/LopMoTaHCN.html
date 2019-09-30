@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<span>
+    <form>
+    <h2>Chiều dài: <input type="text" id="length"></h2>
+    <h2>Chiều rộng:<input type="text" id="width"></h2>
+    <input type="button" onclick="getAll()" value="Get">
+        <br/>
+        <br/>
+    </form>
+</span>
+    <canvas id="myCanvas" width="500px" height="300px" style="border:1px solid #d3d3d3;"></canvas>
+    <input type="button" onclick="createRec()" value="draw">
+    <script>
+        let Rectangle = function (length,width) {
+            this.length = length;
+            this.width = width;
+            this.getLength = function() {
+                return this.length;
+            };
+            this.setLength = function(length) {
+                this.length  = length;
+            };
+            this.getWidth = function() {
+                return this.width;
+            };
+            this.setWidth = function(width) {
+                this.width  = width;
+            };
+            this.getPreRec = function () {
+                return (length+width)/2;
+            };
+            this.getAreaRec = function () {
+                return length*width;
+            };
+            this.draw = function () {
+                for(let i = 1; i <= width; i++)    {
+                    for(let k = 1 ; k <= length; k++){
+                        if(i == 1 || k == 1 || i == width || k == length){
+                            document.writeln("*");
+                        }
+                        else{
+                            document.writeln("&nbsp&nbsp");
+                        }
+                    }
+                    document.writeln("<br>");
+                }
+            };
+        }
+        let length = document.getElementById("length");
+        let width = document.getElementById("width");
+        let rectangle;
+        function getAll() {
+            rectangle = new Rectangle(parseInt(length.value),parseInt(width.value));
+            let pre = rectangle.getPreRec();
+            let area = rectangle.getAreaRec();
+            alert("Chu vi HCN là: "+pre+" Diện tích HCN là: "+area);
+
+        }
+        function createRec(){
+            var ctx = document.getElementById("myCanvas").getContext("2d");
+            rectangle = new Rectangle(parseInt(length.value),parseInt(width.value));
+            ctx.fillStyle="#FF0000";
+            ctx.fillRect(0,0,rectangle.length,rectangle.width);
+            ctx.fill();
+        }
+    </script>
+</body>
+</html>

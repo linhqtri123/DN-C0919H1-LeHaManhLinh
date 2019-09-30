@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <h3>Add New Product</h3>
+        <input type="text" id ="txtName">
+        <input type="button" onclick="addNewProduct()" value="Add">
+        <h3>Display All Product</h3>
+        <h4>Product Name</h4>
+        <span><table>
+        <div id ="display"></div>
+        </table>
+        </span>
+    </form>
+    <script>
+        let array = [];
+        let txtName = document.getElementById("txtName");
+        function addNewProduct() {
+            array.push(txtName.value);
+            document.getElementById("display").innerHTML= displayList();
+        }
+        function displayList() {
+            let sout;
+            for (let i=0; i<array.length;i++) {
+                sout = sout + "<tr>";
+                sout = sout + "<td>"+ array[i] + "</td>";
+                sout = sout + "<td>"+ "<button>Edit</button> " + "</td>";
+                sout = sout + "<td>"+ "<button>Delete</button>" + "</td>";
+                }
+                sout = sout + "</tr>";
+            document.write(sout);
+        }
+        function editName() {
+            
+        }
+        function deleteNname() {
+        }
+    </script>
+</body>
+</html>
