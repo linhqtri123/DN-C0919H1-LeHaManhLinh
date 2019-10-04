@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <h3> String : <input type="text" id="string"/> <input type="button" value="Get" onclick="getAll()"/></h3>
+    </form>
+    <script>
+        //Dem chuoi xuat hien bao nhieu chu a
+        function validateString(str) {
+            let regexp = /[a]/g;
+            let found = str.match(regexp);
+            return found.length;
+        }
+        let countStr;
+        let string = document.getElementById("string");
+        function getAll() {
+            countStr = validateString(string.value);
+            alert("Chuỗi có "+ countStr + "chữ a");
+        }
+    </script>
+</body>
+</html>

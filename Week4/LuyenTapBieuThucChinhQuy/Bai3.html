@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <h3> String : <input type="text" id="string"/> <input type="button" value="Get" onclick="getAll()"/></h3>
+    </form>
+    <script>
+        //Đếm số nguyên âm/phụ âm trong một chuỗi
+        function countVowel(str) {
+            let regexp = /[euoai]/ig;
+            let found = str.match(regexp);
+            return found.length;
+        }
+        let countStr;
+        let string = document.getElementById("string");
+        function getAll() {
+            countStr = countVowel(string.value);
+            alert("Nguyên Âm có : " + countStr + " Từ");
+        }
+    </script>
+</body>
+</html>

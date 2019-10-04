@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <h3> String : <input type="text" id="string"/> <input type="button" value="Get" onclick="getAll()"/></h3>
+    </form>
+    <script>
+        //Hãy thay thế chữ 'Javascript' bằng chữ 'Typescript
+        function replace(str) {
+            let regexp = /Javascript/gi;
+            let found = str.replace(regexp,"Typescript");
+            return found;
+        }
+        let countStr;
+        let string = document.getElementById("string");
+        function getAll() {
+            countStr = replace(string.value);
+            alert("Chuỗi sau khi thay thế :" + countStr + "");
+        }
+    </script>
+</body>
+</html>

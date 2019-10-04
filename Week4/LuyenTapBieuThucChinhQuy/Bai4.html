@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <h3>Security Code : <input type="text" id="code"/> <input type="button" value="Get" onclick="getAll()"/></h3>
+    </form>
+    <script>
+        function validateCode(str) {
+            let regexp = /^[a-z0-9]{6,}[A-Z]{1,}$/;
+            if (regexp.test(str))
+                return true;
+            return false;
+        }
+        let account = document.getElementById("code");
+        let val;
+        function getAll() {
+            val = validateCode(account.value);
+            alert("Validate Code "+ val);
+        }
+    </script>
+</body>
+</html>

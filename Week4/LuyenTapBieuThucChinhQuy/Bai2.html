@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <h3>String : <input type="text" id="string"/> <input type="button" value="Get" onclick="getAll()"/></h3>
+    </form>
+    <script>
+        //Đếm số từ trong một chuỗi
+        function countString(str) {
+            //let regexp = /\w+/g;
+            let found = str.match(/\w+/g);
+            return found.length;
+        }
+        let countStr;
+        let string = document.getElementById("string");
+        function getAll() {
+            countStr = countString(string.value);
+            alert(countStr);
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <h3> String : <input type="text" id="string"/> <input type="button" value="Get" onclick="getAll()"/></h3>
+    </form>
+    <script>
+        //Tách chuỗi thành các phần tử trong mảng
+        function tachChuoi(str) {
+            let regexp = /\w/g;
+            let found = str.match(regexp);
+            return found;
+        }
+        let countStr;
+        let string = document.getElementById("string");
+        function getAll() {
+            countStr = tachChuoi(string.value);
+            alert("Array [" + countStr + "]");
+        }
+    </script>
+</body>
+</html>

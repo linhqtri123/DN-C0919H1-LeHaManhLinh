@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function TaoSoNgauNhien(min, max){
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+        //Sinh số ngẫu nhiên 0-10
+        let random1 = TaoSoNgauNhien(1,11);
+        alert(random1);
+        //Sinh số ngẫu nhiên 0-400
+        let random2 = TaoSoNgauNhien(1,401);
+        alert(random2);
+        //Sinh số ngẫu nhiên 50-400
+        let random3 = TaoSoNgauNhien(50,450);
+        alert(random3);
+    </script>
+</body>
+</html>

@@ -4,38 +4,51 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
+<body onload="document.getElementById('txtName').focus()">
     <form>
         <h3>Add New Product</h3>
         <input type="text" id ="txtName">
         <input type="button" onclick="addNewProduct()" value="Add">
         <h3>Display All Product</h3>
         <h4>Product Name</h4>
-        <span><table>
         <div id ="display"></div>
-        </table>
-        </span>
+
     </form>
     <script>
-        let array = [];
+        let array = new Array();
+        let index;
         let txtName = document.getElementById("txtName");
         function addNewProduct() {
             array.push(txtName.value);
             document.getElementById("display").innerHTML= displayList();
+            txtName.value = "";
+            txtName.focus();
         }
         function displayList() {
             let sout;
+            sout = "<table border='1' width='300' cellspacing='0' cellpadding='6'>";
             for (let i=0; i<array.length;i++) {
                 sout = sout + "<tr>";
-                sout = sout + "<td>"+ array[i] + "</td>";
-                sout = sout + "<td>"+ "<button>Edit</button> " + "</td>";
+                sout = sout + "<td onclick='display(this)'>"+ array[i] + "</td>";
+                sout = sout + "<td>"+ "<input type='button' onclick='editName()' value='Edit'> " + "</td>";
                 sout = sout + "<td>"+ "<button>Delete</button>" + "</td>";
+            }
+            sout = sout + "</tr>";
+            sout = sout + "</table>";
+            return sout;
+        }
+        function display(obj) {
+            txtName.value = obj.innerText;
+            for(let i=0;i<array.length;i++)
+            {
+                if(txtName.value == array[i])
+                {
+                    index = i;
                 }
-                sout = sout + "</tr>";
-            document.write(sout);
+            }
         }
         function editName() {
-            
+            alert(index);
         }
         function deleteNname() {
         }

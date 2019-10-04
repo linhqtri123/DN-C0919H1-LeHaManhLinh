@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1553ba06-0e25-4491-862a-3f600e0380d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Week3/LopMoTaHCN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week3/QuanLySanPhamSuDungHam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/.idea/Week4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/AdamEva.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakingTextAreaOnTyping.html" beforeDir="false" afterPath="$PROJECT_DIR$/FakingTextAreaOnTyping.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoodFastCheap.html" beforeDir="false" afterPath="$PROJECT_DIR$/GoodFastCheap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Week3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week3/LuyenTapSuDungHam2/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/LuyenTapSuDungHam2/Bai2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week3/XayDungHinhTron.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/XayDungHinhTron.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week3/XayDungLopDate.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/XayDungLopDate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/QuanLySanPhamSuDungHam.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/QuanLySanPhamSuDungHam.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SinhBangCuuChuong.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoodFastCheap.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -156,7 +163,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Week3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -204,15 +211,21 @@
       <workItem from="1569470382124" duration="2914000" />
       <workItem from="1569771961737" duration="16000" />
       <workItem from="1569772722350" duration="58000" />
+      <workItem from="1569813382444" duration="18000" />
+      <workItem from="1569813469069" duration="22000" />
+      <workItem from="1569814126766" duration="22000" />
+      <workItem from="1569814196247" duration="10000" />
+      <workItem from="1569814221979" duration="6000" />
+      <workItem from="1569814268231" duration="12000" />
+      <workItem from="1569814621217" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65213000" />
+    <option name="totallyTimeSpent" value="65316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -513,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoodFastCheap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FakingTextAreaOnTyping.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -562,8 +568,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SinhBangCuuChuong.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodFastCheap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
     </entry>

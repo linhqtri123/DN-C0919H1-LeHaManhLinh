@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <h3>dd/mm/yyyy : <input type="text" id="date"/> <input type="button" value="Get" onclick="getAll()"/></h3>
+    </form>
+    <script>
+        function validateDate(str) {
+            let regexp = /^([0-2][0-9]|(3)[0-1])(\/)(((0)[1-9])|((1)[0-2]))(\/)\d{4}$/;
+            if (regexp.test(str))
+                return true;
+            return false;
+        }
+        let date = document.getElementById("date");
+        let val;
+        function getAll() {
+            val = validateDate(date.value);
+            alert("Validate Date " + val);
+        }
+    </script>
+</body>
+</html>

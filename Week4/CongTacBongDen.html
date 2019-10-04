@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h3>
+        Switch:
+        <input type="text" id="txtSwitch" disabled value="Off">
+        <input type="button" value="Switch On" onclick="switchOn()">
+        <input type="button" value="Switch Off" onclick="switchOff()">
+    </h3>
+    <input type="button" value="Connect" onclick="connectBoth()">
+    <h3>
+        Lamp:
+        <input type="text" id="txtLamp" disabled value="Off">
+    </h3>
+
+    <script>
+        let SwitchButton = function (status,lamp) {
+            this.status = status;
+            this.lamp = lamp;
+            this.connectToLamp = function () {
+                this.lamp = true;
+            }
+            this.switchOff = function () {
+                this.status = false;
+
+            }
+            this.switchOn = function () {
+                this.status = true;
+            }
+        }
+        let ElectricLamp = function (status) {
+            this.status = status;
+            this.turnOff = function () {
+                this.status = false;
+            }
+            this.turnOn = function () {
+                this.status = true;
+            }
+        }
+        let txtSwitch = document.getElementById("txtSwitch");
+        let txtLamp = document.getElementById("txtLamp");
+        let lamp = new ElectricLamp(false);
+        let switchClick = new SwitchButton(false,lamp.status);
+        function switchOn() {
+            switchClick.switchOn();
+            if (switchClick.status)
+                txtSwitch.value = "On";
+            else alert ("Switch cannot switch on");
+            if(switchClick.lamp)
+                txtLamp.value = "On";
+        }
+        function switchOff() {
+            switchClick.switchOff();
+            if (!switchClick.status)
+                txtSwitch.value = "Off";
+            else alert ("Switch cannot switch off");
+            if(switchClick.lamp)
+                txtLamp.value = "Off";
+        }
+        function connectBoth() {
+            alert("Connect to Lamp");
+            switchClick.connectToLamp();
+            if(switchClick.status)
+                txtLamp.value = "On";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--    <form>-->
+<!--        <h3>Birthday : <input type="text" id="birthday"/> <input type="button" value="Get" onclick="getAll()"/></h3>-->
+<!--    </form>-->
+    <script>
+        let MyDate2 = function(day, month, year,hours) {
+
+            this.day = day;
+
+            this.month = month;
+
+            this.year = year;
+
+            this.hours = hours;
+
+            this.getHours = function () {
+                return this.hours;
+            };
+            this.setHours = function (hours) {
+                this.hours = hours;
+            }
+
+            this.getDay = function() {
+                return this.day;
+            };
+            this.getMonth = function() {
+                return this.month;
+            };
+            this.getYear = function() {
+                return this.year;
+            };
+            this.setDay = function(day) {
+                this.day  = day;
+            };
+            this.setMonth = function(month) {
+                this.month  = month;
+            };
+            this.setYear = function(year) {
+                this.year  = year;
+            };
+        };
+        let birth = new MyDate2(3,10,2018,10);
+        let d = new Date();
+
+        alert("Tôi đã sống "+(d.getFullYear()-birth.getYear())+" năm");
+        alert("Tôi đã sống "+(d.getMonth()+birth.getMonth()+(d.getFullYear()-birth.getYear() -1)*12)+" tháng");
+        alert("Tôi đã sống "+(((d.getFullYear()-birth.getYear())*12*30)-((12-d.getMonth()*30)-(30-d.getDate()))-((12-birth.getMonth()*30)-(30-birth.getDay()))+" ngày"));
+        //(d.getDate()+((d.getMonth()-1)*30)+(birth.getDay()+((birth.getMonth()-1))*30)
+    </script>
+</body>
+</html>

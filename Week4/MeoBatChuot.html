@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>
+    Cat:
+    <input type="text" id="txtCat" disabled>
+</h3>
+<h3>
+    Mouse:
+    <input type="text" id="txtRat" disabled>
+    <input type="button" value="Eat" onclick="eatRat()">
+    <input type="button" value="Catch" onclick="catchRat()">
+</h3>
+    <script>
+        let Rat = function (name,weight,speed,status) {
+            this.name = name;
+            this.weight = weight;
+            this.speed = speed;
+            this.status = status;
+
+        }
+        let Cat = function (name,weight,maxSpeed,) {
+            this.name = name;
+            this.weight = weight;
+            this.maxSpeed = maxSpeed;
+            this.catch = function (Rat) {
+                if(maxSpeed > Rat)
+                    return true;
+                else return false;
+            }
+            this.eatMeat = function (Rat) {
+                if(Rat)
+                    this.weight = ++weight;
+                else this.weight = weight;
+            }
+        }
+        let rat = new Rat("jerry",50,52,true);
+        let miu = new Cat("Tom",60,51);
+        let txtCat = document.getElementById("txtCat");
+        let txtRat = document.getElementById("txtRat");
+        txtCat.value = miu.weight;
+        if(rat.status)
+            txtRat.value = "Alive";
+        else txtRat.value = "Died";
+        function catchRat() {
+            if(miu.catch(rat.speed))
+                alert("Catch Rat!!!!");
+            else alert("Cat cannot catch this rat");
+        }
+        function eatRat() {
+            miu.eatMeat(rat.status);
+            if(rat.status)
+                txtCat.value = miu.weight;
+            else alert("Rat is died so cat cannot eat!!!!");
+            rat.status = false;
+            txtRat.value = "Died";
+        }
+    </script>
+</body>
+</html>
