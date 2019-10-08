@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let chuoi = prompt("Enter string: ");
+        let chuoi2 = "";
+        function reverse(chuoi) {
+            for(let i=chuoi.length-1; i>=0;i--) {
+                chuoi2 += chuoi.charAt(i);
+            }
+            document.writeln(chuoi2);
+        }
+        function upCase(chuoi) {
+            chuoi2 = "";
+            for(let i=0; i<chuoi.length;i++){
+                chuoi2 += chuoi.charAt(i).toUpperCase();
+            }
+            document.writeln(chuoi2);
+        }
+        function lowerCase(chuoi) {
+            chuoi2 = "";
+            for(let i=0; i<chuoi.length;i++){
+                chuoi2 += chuoi.charAt(i).toLowerCase();
+            }
+            document.writeln(chuoi2);
+        }
+        function lowerUpCase(chuoi) {
+            chuoi2 = "";
+            for(let i=0; i<chuoi.length;i++){
+                if(chuoi.charAt(i) === chuoi.charAt(i).toLowerCase())
+                    chuoi2 += chuoi.charAt(i).toUpperCase();
+                else chuoi2 += chuoi.charAt(i).toLowerCase();
+            }
+            document.writeln(chuoi2);
+        }
+        reverse(chuoi);
+        document.writeln("<br>");
+        upCase(chuoi);
+        document.writeln("<br>");
+        lowerCase(chuoi);
+        document.writeln("<br>");
+        lowerUpCase(chuoi);
+    </script>
+</body>
+</html>

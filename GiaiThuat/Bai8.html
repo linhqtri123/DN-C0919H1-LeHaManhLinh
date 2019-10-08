@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let a = prompt("Enter A: ");
+        let b = prompt("Enter B: ");
+        let temp1 = a;
+        let temp2 = b;
+        let ucln;
+        while (temp1 != temp2) {
+            if (temp1 > temp2) {
+                temp1 = temp1 - temp2;
+            } else {
+                temp2 = temp2 - temp1;
+            }
+        }
+        ucln = temp1;
+        document.writeln("Ước số chung lớn nhất của " + a + " và " + b + " = " + ucln);
+        document.writeln("<br>");
+        document.writeln("Bội số chung lớn nhất của " + a + " và " + b + " = " +((a * b) / ucln));
+    </script>
+</body>
+</html>

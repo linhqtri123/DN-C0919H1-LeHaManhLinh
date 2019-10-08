@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let integerNumber = prompt("Enter the integer number: ");
+        let sum = 0;
+        // Tích
+        let result = 1;
+        let temp;
+        while (integerNumber>1){
+            temp = parseInt(integerNumber) %10;
+            sum += temp;
+            result *= temp;
+            integerNumber = parseInt(integerNumber)/10;
+        }
+        document.writeln("Sum elements of integer number is: "+sum+"<br>");
+        document.writeln("Multi elements of integer number is: "+result);
+    </script>
+</body>
+</html>

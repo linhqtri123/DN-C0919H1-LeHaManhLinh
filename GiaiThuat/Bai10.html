@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let chuoi = prompt("Enter the string: ");
+        function oneWordOneLine(chuoi) {
+            let chuoi2 = "";
+            for(let i=0; i<chuoi.length;i++){
+                chuoi2 = chuoi2 + chuoi.charAt(i);
+                document.write(chuoi2);
+                if(chuoi.charAt(i) === " "){
+                    document.writeln("<br>");
+                }
+                chuoi2 = "";
+            }
+        }
+        function countWord(chuoi) {
+            let count = 0;
+            for(let i=0; i<chuoi.length;i++)
+                if(chuoi.charAt(i) === " "){
+                    count++;
+                }
+            document.writeln("The total word in string is: "+(count+1));
+        }
+        oneWordOneLine(chuoi);
+        countWord(chuoi);
+    </script>
+</body>
+</html>

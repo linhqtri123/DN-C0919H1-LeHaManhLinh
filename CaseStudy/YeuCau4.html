@@ -38,9 +38,7 @@
                     result2 +="\n"+(i+1)+" "+arrayCustomerDefault[i];
                 alert(result2);
                 let deleteName = prompt("Enter index you want to delete: ");
-                for(let j = 0; j<arrayCustomerDefault.length;j++)
-                    if(deleteName == j+1)
-                        arrayCustomerDefault.splice(j,1);
+                arrayCustomerDefault.splice(deleteName-1,1);
                 result2 = "";
                 for(let i=0; i<arrayCustomerDefault.length;i++)
                     result2 +="\n"+(i+1)+" "+arrayCustomerDefault[i];

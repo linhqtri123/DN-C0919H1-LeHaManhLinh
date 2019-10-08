@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let V = prompt("Enter height of tree: ");
+        let Up = prompt("Enter up: ");
+        let down = prompt("Enter down: ");
+        let count = 0;
+        if(down >= Up && V >= Up)
+            alert("False");
+        else {
+            while (V > Up) {
+                V = V - (Up - down);
+                count++;
+            }
+            count++;
+            document.writeln (count);
+        }
+    </script>
+</body>
+</html>
